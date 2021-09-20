@@ -6,4 +6,8 @@
         <RootNamespace>design_patterns</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Wzorce projektowe kreacyjne\Budowniczy\Budowniczy.csproj" />
+    </ItemGroup>
+
 </Project>
