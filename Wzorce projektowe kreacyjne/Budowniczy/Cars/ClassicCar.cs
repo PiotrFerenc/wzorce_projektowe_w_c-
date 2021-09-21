@@ -2,7 +2,7 @@
 
 namespace Budowniczy.Cars
 {
-    public class ClassicCar : ICar
+    public class ClassicCar 
     {
         public string Name { get; set; }
         public int Seats { get; set; }
@@ -10,9 +10,5 @@ namespace Budowniczy.Cars
         public bool TripComputer { get; set; }
         public CarDirector.CarType Type { get; set; }
 
-        public ClassicCar()
-        {
-            Type = CarDirector.CarType.Classic;
-        }
     }
 }

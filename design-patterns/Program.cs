@@ -14,11 +14,13 @@ namespace design_patterns
             var sportCarBuilder = new SportCarBuilder();
 
             var director = new CarDirector(sportCarBuilder);
-            var sportCar = director.Build();
+              director.BuildSportCar();
+
+            var sportCar =   sportCarBuilder.GetCar();
 
             Console.WriteLine(sportCar.Name);
             Console.WriteLine(sportCar.Seats);
-            Console.WriteLine(sportCar.TripComputer);
+            Console.WriteLine(sportCar.Engine.EngineCapacity);
             
             Console.WriteLine("---Koniec---");
 

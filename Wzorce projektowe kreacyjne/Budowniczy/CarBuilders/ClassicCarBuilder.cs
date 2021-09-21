@@ -5,37 +5,39 @@ namespace Budowniczy.CarBuilders
 {
     public class ClassicCarBuilder : ICarBuilder
     {
+        private   ClassicCar _car;
+
         public ClassicCarBuilder()
         {
-            Car = new ClassicCar();
+            _car = new ClassicCar();
         }
-
-        public ICar Car { get; set; }
-
 
         public void SetName(string name)
         {
-            Car.Name = name;
+            _car.Name = name;
         }
 
         public void SetSeats(int numberOfSeats)
         {
-            Car.Seats = numberOfSeats;
+            _car.Seats = numberOfSeats;
         }
 
         public void SetEngine(Engine engine)
         {
-            Car.engine = engine;
+            _car.engine = engine;
         }
 
         public void SetTripComputer(bool hasTripComputer)
         {
-            Car.TripComputer = hasTripComputer;
+            _car.TripComputer = hasTripComputer;
         }
 
-        public ICar Build()
+        public ClassicCar GetCar()
         {
-            return Car;
+            var newClassicCar = _car;
+            _car = new ClassicCar();
+            
+            return newClassicCar;
         }
     }
 }
