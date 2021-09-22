@@ -1,0 +1,3 @@
+﻿#Fabryka abstrakcyjna
+
+Rodzina obiektów. 

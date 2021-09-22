@@ -3,6 +3,8 @@ using Budowniczy;
 using Budowniczy.CarBuilders;
 using Budowniczy.Cars;
 using Fabryka;
+using Fabryka_abstrakcyjna;
+using Fabryka_abstrakcyjna.ControlFactory;
 
 namespace design_patterns
 {
@@ -33,6 +35,22 @@ namespace design_patterns
             happyEmoji.Render();
 
             Console.WriteLine("---Koniec---");
+            
+            Console.WriteLine("---Fabryka abstrakcyjna---");
+
+            var windowsTextEditor = new TextEditor(new WindowsControlFactory());
+            windowsTextEditor.Render();
+
+            windowsTextEditor.ClickButton();
+            
+            var macTextEditor = new TextEditor(new MacControlFactory());
+            macTextEditor.Render();
+            
+            macTextEditor.ClickButton();
+
+            Console.WriteLine("---Koniec---");
+            
+            
         }
     }
 }

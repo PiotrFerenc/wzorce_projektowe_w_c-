@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Budowniczy\Budowniczy.csproj" />
+      <ProjectReference Include="..\Wzorce projektowe kreacyjne\Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj" />
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Fabryka\Fabryka.csproj" />
     </ItemGroup>
 
