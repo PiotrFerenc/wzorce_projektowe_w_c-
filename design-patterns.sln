@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabryka", "Wzorce projektow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabryka abstrakcyjna", "Wzorce projektowe kreacyjne\Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj", "{75A59A82-1D24-4978-B52B-23BCB930A8D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototyp", "Wzorce projektowe kreacyjne\Prototyp\Prototyp.csproj", "{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,10 +40,15 @@ Global
 		{75A59A82-1D24-4978-B52B-23BCB930A8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A59A82-1D24-4978-B52B-23BCB930A8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A59A82-1D24-4978-B52B-23BCB930A8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD7C0889-B5F8-49FA-AB78-9FED47ADBFB1} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
 		{F30FC855-E128-4814-ADA2-04E5714596DE} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
 		{75A59A82-1D24-4978-B52B-23BCB930A8D1} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
+		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
 	EndGlobalSection
 EndGlobal

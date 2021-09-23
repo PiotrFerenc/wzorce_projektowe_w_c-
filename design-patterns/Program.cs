@@ -5,6 +5,7 @@ using Budowniczy.Cars;
 using Fabryka;
 using Fabryka_abstrakcyjna;
 using Fabryka_abstrakcyjna.ControlFactory;
+using Prototyp;
 
 namespace design_patterns
 {
@@ -50,6 +51,18 @@ namespace design_patterns
 
             Console.WriteLine("---Koniec---");
             
+            Console.WriteLine("---Prototyp---");
+
+            var paper = new SheetOfPaper("Some text");
+
+            var paper2 = paper.Clone();
+
+            if (!ReferenceEquals(paper,paper2))
+            {
+                Console.WriteLine("Kopia bez referencji");
+            }
+            
+            Console.WriteLine("---Koniec---");
             
         }
     }
