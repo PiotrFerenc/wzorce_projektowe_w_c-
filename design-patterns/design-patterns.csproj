@@ -11,6 +11,7 @@
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj" />
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Fabryka\Fabryka.csproj" />
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Prototyp\Prototyp.csproj" />
+      <ProjectReference Include="..\Wzorce projektowe kreacyjne\Singleton\Singleton.csproj" />
     </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@ using Fabryka;
 using Fabryka_abstrakcyjna;
 using Fabryka_abstrakcyjna.ControlFactory;
 using Prototyp;
+using Singleton;
 
 namespace design_patterns
 {
@@ -62,6 +63,15 @@ namespace design_patterns
                 Console.WriteLine("Kopia bez referencji");
             }
             
+            Console.WriteLine("---Koniec---");
+            
+            Console.WriteLine("---Singleton---");
+            // var config = new GlobalConfiguration();
+            
+            var config = GlobalConfiguration.GetInstance(); 
+            var cs = config.ConnectionString;
+            Console.WriteLine(cs);
+
             Console.WriteLine("---Koniec---");
             
         }
