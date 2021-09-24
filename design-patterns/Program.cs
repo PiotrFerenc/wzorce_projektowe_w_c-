@@ -7,6 +7,8 @@ using Fabryka_abstrakcyjna;
 using Fabryka_abstrakcyjna.ControlFactory;
 using Prototyp;
 using Singleton;
+using Strategia;
+using Strategia.Strategies;
 
 namespace design_patterns
 {
@@ -71,6 +73,15 @@ namespace design_patterns
             var config = GlobalConfiguration.GetInstance(); 
             var cs = config.ConnectionString;
             Console.WriteLine(cs);
+
+            Console.WriteLine("---Koniec---");
+            
+            Console.WriteLine("---Strategia---");
+
+            var routeType = new BikeStrategy();
+            var navigator = new Navigator(routeType);
+            navigator.BuildRoute("Londyn","Paris");
+            
 
             Console.WriteLine("---Koniec---");
             
