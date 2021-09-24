@@ -5,6 +5,7 @@ using Budowniczy.Cars;
 using Fabryka;
 using Fabryka_abstrakcyjna;
 using Fabryka_abstrakcyjna.ControlFactory;
+using Obserwator;
 using Prototyp;
 using Singleton;
 using Strategia;
@@ -83,6 +84,19 @@ namespace design_patterns
             navigator.BuildRoute("Londyn","Paris");
             
 
+            Console.WriteLine("---Koniec---");
+            
+            Console.WriteLine("---Obserwator---");
+
+            var victim1 = new VictimSubscriber("127.0.0.1");
+            var victim2 = new VictimSubscriber("127.0.0.2");
+
+            var hacker = new HackerPublisher();
+            hacker.ConnectToVictim(victim1);
+            hacker.ConnectToVictim(victim2);
+            
+            hacker.RunAttack("DDOS");
+            
             Console.WriteLine("---Koniec---");
             
         }

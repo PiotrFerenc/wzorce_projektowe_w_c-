@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Wzorce projektowe behawioralne\Obserwator\Obserwator.csproj" />
       <ProjectReference Include="..\Wzorce projektowe behawioralne\Strategia\Strategia.csproj" />
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Budowniczy\Budowniczy.csproj" />
       <ProjectReference Include="..\Wzorce projektowe kreacyjne\Fabryka abstrakcyjna\Fabryka abstrakcyjna.csproj" />

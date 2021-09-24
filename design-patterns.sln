@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wzorce projektowe behawiora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategia", "Wzorce projektowe behawioralne\Strategia\Strategia.csproj", "{5CC7198C-C312-421C-8433-F7F3E4D7C10B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obserwator", "Wzorce projektowe behawioralne\Obserwator\Obserwator.csproj", "{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{5CC7198C-C312-421C-8433-F7F3E4D7C10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC7198C-C312-421C-8433-F7F3E4D7C10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC7198C-C312-421C-8433-F7F3E4D7C10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD7C0889-B5F8-49FA-AB78-9FED47ADBFB1} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
@@ -66,5 +72,6 @@ Global
 		{2FBEB895-AF1C-452F-AE84-C3E9F3F2263C} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
 		{361A1DEA-40A2-4376-870C-18ED38D6415E} = {C0353F17-729A-40E7-9FB9-7FC0BDC7D843}
 		{5CC7198C-C312-421C-8433-F7F3E4D7C10B} = {5C5810F5-F97A-4A83-BC0D-28E723950F73}
+		{DA2156DD-5103-4EFA-888D-F1F1F6AD40F0} = {5C5810F5-F97A-4A83-BC0D-28E723950F73}
 	EndGlobalSection
 EndGlobal
